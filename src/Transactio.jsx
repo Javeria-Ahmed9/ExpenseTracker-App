@@ -26,7 +26,7 @@ export function Transactio() {
   };
   return (
     <>
-      <div id="tran" className="container  ">
+      <div id="tran">
         <h4>
           <b>Add new transaction</b>
         </h4>

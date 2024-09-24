@@ -4,20 +4,18 @@ import { History } from "./History";
 import { Transactio } from "./Transactio";
 export function ExpenseTracker() {
   let { total, expense } = useContext(dataIs);
-  // console.log(total);
-  // console.log(expense);
   const sum = total.reduce((t, num) => t + parseInt(num), 0);
 
   const decrease = expense.reduce((t, val) => t + parseInt(val), 0);
   const balance = sum + decrease;
   return (
-    <div id="maindiv" className="container border">
-      <h1 className="container">Expense Tracker</h1>
-      <div className="container">
+    <div id="maindiv" className="container">
+      <h1>Expense Tracker</h1>
+      <div>
         <h4 id="balance">Your balance</h4>
         <h3>Rs. {balance !== 0 ? balance : "000000"}</h3>
       </div>
-      <div className="container">
+      <div>
         <div id="expense" className="container text-center border">
           <div className="row ">
             <h4 className="col fw-bold ">Income</h4>
