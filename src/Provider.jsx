@@ -10,8 +10,6 @@ export default function Provider({ children }) {
   let [total, setTotal] = useState([]);
   let [expense, setExpense] = useState([]);
 
-  let [dlt, setDlet] = useState("");
-
   let Alldata = (reason, amount) => {
     setHis([...his, { name: reason, price: amount }]);
     if (amount > 0) {
