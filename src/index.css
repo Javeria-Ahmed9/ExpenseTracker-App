@@ -54,12 +54,12 @@ button{
 
 @media(max-width:460px){
   #hitorydiv{
-    margin-top: 38px;
+    margin-top: 42px;
   
   }
   h1{
     color: rgb(16, 16, 34);
-    
+    margin-top: 18px;
     font-size: 28px;
     font-family: ''Gill Sans MT',  'Trebuchet MS;
     font-weight: 700;
@@ -88,5 +88,9 @@ button{
   button{
     margin-bottom: 10px;
     margin-top: 5px;
+  }
+  #pdiv{
+    font-family: sans-serif;
+    font-weight: bold;
   }
 }

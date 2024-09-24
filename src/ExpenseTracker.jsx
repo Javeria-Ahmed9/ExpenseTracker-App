@@ -13,7 +13,7 @@ export function ExpenseTracker() {
       <h1>Expense Tracker</h1>
       <div>
         <h4 id="balance">Your balance</h4>
-        <h3>Rs. {balance !== 0 ? balance : "000000"}</h3>
+        <h3 id="pdiv">Rs. {balance !== 0 ? balance : "000000"}</h3>
       </div>
       <div>
         <div id="expense" className="container text-center border">
