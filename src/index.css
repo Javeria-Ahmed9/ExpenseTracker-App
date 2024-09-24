@@ -1,0 +1,71 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1551546785-423f456af418?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNpbXBsZSUyMGFwcCUyMGJhY2tnZW91bmd8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2{
+  margin-top: 15px;
+
+}
+#balance{
+  color: rgb(38, 38, 109);
+}
+h1{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+#maindiv{
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#save{
+ color: green;
+}
+#spent{
+  color: brown;
+}
+#expense{
+  margin-top: 21px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+button{
+  margin-bottom: 10px;
+}
+
+#hist{
+ overflow: hidden;
+}
+#icon{
+  color: rgb(152, 109, 109);
+}
+#row{
+  margin-top: 3px;
+  padding: 4px 20px 0px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 14px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media(max-width:460px){
+  h1{
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  #maindiv{
+    width: 350px;
+  }
+  h4{
+    font-size: 18px;
+ 
+  }
+    #expense{
+      margin-top: 15px;
+    }
+  #tran{
+    margin-top: 30px;
+  }
+}
