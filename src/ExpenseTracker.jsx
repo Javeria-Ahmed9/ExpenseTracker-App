@@ -4,6 +4,9 @@ import { History } from "./History";
 import { Transactio } from "./Transactio";
 export function ExpenseTracker() {
   let { total, expense } = useContext(dataIs);
+  console.log(total);
+  console.log(expense);
+
   const sum = total.reduce((t, num) => t + parseInt(num), 0);
 
   const decrease = expense.reduce((t, val) => t + parseInt(val), 0);
