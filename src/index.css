@@ -49,14 +49,20 @@ button{
 }
 
 @media(max-width:460px){
-
+  #hitorydiv{
+    margin-top: 38px;
+  
+  }
   h1{
-    font-size: 26px;
+    color: rgb(16, 16, 34);
+    
+    font-size: 28px;
     font-family: ''Gill Sans MT',  'Trebuchet MS;
     font-weight: 700;
   }
   #balance{
    font-family: 'Times New Roman';
+   margin-top: 35px;
   }
   #maindiv{
     width: 350px;
@@ -66,8 +72,11 @@ button{
  
   }
     #expense{
-      margin-top: 27px;
+      margin-top: 29px;
     }
+    #expense h4{
+      margin-bottom: 6px;
+    } 
   #tran{
     margin-top: 30px;
   }

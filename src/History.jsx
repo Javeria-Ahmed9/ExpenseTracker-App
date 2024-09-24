@@ -10,7 +10,7 @@ export function History() {
   };
   return (
     <>
-      <div>
+      <div id="hitorydiv">
         <h4>
           <b>History</b>
         </h4>
