@@ -16,7 +16,7 @@ export function ExpenseTracker() {
       <h1>Expense Tracker</h1>
       <div>
         <h4 id="balance">Your balance</h4>
-        <h3 id="pdiv">Rs. {balance !== 0 ? balance : "000000"}</h3>
+        <h3 id="pdiv">Rs. {balance !== 0 ? balance : "00"}</h3>
       </div>
       <div>
         <div id="expense" className="container text-center border">
@@ -29,11 +29,11 @@ export function ExpenseTracker() {
           <>
             <div className="row ">
               <h4 id="save" className="col">
-                Rs. {sum !== 0 ? sum : "000000"}
+                Rs. {sum !== 0 ? sum : "00"}
               </h4>
 
               <h4 id="spent" className="col">
-                Rs. {decrease !== 0 ? decrease : "000000"}
+                Rs. {decrease !== 0 ? decrease : "00"}
               </h4>
             </div>
           </>
